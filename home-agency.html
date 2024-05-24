@@ -1,73 +1,75 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en">
-
+<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5. -->
+<html class="no-js" lang="es"> <!-- El atributo "class" se usa para detectar si JavaScript está habilitado o no. El atributo "lang" indica que el idioma del contenido es inglés. -->
 <head>
-	<meta name="description" content="Clasico - Agency and Portfolio Template">
-	<meta name="keywords" content="Clasico, portfolio, wordpress, html, css, theme">
-    <meta name="viewport" content="width=device-width, initial-scale=1">      
-	<meta name="LegendTheme" content="legendtheme">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Clasico - Minimal Portfolio Template</title>
+    <meta name="description" content="Clasico - Agency and Portfolio Template"> <!-- Proporciona una descripción del documento para motores de búsqueda. -->
+    <meta name="keywords" content="Clasico, portfolio, wordpress, html, css, theme"> <!-- Palabras clave para SEO. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configura el viewport para diseño responsive. -->
+    <meta name="LegendTheme" content="legendtheme"> <!-- Meta etiqueta personalizada. -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- Especifica la codificación de caracteres del documento. -->
+    <title>Portafolio de Servicios</title> <!-- Título del documento que aparece en la pestaña del navegador. -->
     
-    <!-- CSS Files -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/ionicons.css" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> <!-- Enlace a los estilos de Bootstrap. -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> <!-- Enlace a los iconos de Font Awesome. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Enlace a los iconos WhatsApp. -->
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css" /> <!-- Enlace a los iconos de Ionicons. -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Enlace a los estilos personalizados. -->
 </head>
-<body id="agency">
-	
+
+<body>
+    <!-- Encabezado -->
     <header id="header">
-    	<!-- start Navigation -->
-        <nav class="navbar navbar-default" >
-          <div class="container">
-			<div class="row">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="index.html">Clasico</a>
-				</div>
-			
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="index.html">Grid Three</a></li>
-						<li><a href="home-grid-two.html">Grid Two</a></li>
-						<li><a href="home-agency.html">Agency</a></li>
-					  </ul>
-					</li>
-					<li ><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="project-grid-two.html">Project Grid Two</a></li>
-						<li><a href="project-grid-three.html">Project Grid Three</a></li>
-						<li><a href="project-single.html">Single project Page</a></li>
-					  </ul>
-					</li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="blog-with-sidebar.html">Blog Page</a></li>
-						<li><a href="blog-post.html">Single Blog Page</a></li>
-					  </ul>
-					</li>
-					<li><a href="contact.html">Contact</a></li>
-				  </ul>
-				</div><!-- /.navbar-collapse -->
-			</div>	
-          </div><!-- /.container-fluid -->
-        </nav><!-- end nav -->
-    </header><!-- end header-->
+        <!-- Inicio de la navegación -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="row">
+                    <!-- Marca y botón de navegación para móviles -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Alternar navegación</span> <!-- Texto accesible solo para lectores de pantalla. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                        </button>
+                        <a href="index.html"><img src="images/logos/ingsistemas.png" alt="logo" /></a> <!-- Imagen del proyecto. -->
+                        <!-- <a class="navbar-brand" href="index.html">Logo</a>--> <!-- Enlace a la página principal. -->
+                    </div>
+                    
+                    <!-- Recopilación de enlaces de navegación, formularios y otro contenido para toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Inicio <b class="caret"></b></a> <!-- Enlace desplegable a la página principal. -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Pagina Principal</a></li> <!-- Opción de menú: Grid Three. -->
+                                    <li><a href="home-grid-two.html">Portafolio</a></li> <!-- Opción de menú: Grid Two. -->
+                                    <li><a href="home-agency.html">Agencia</a></li> <!-- Opción de menú: Agency. -->
+                                </ul>
+                            </li>
+                            <li><a href="about.html">Acerca de</a></li> <!-- Enlace a la página "About". -->
+                            <li><a href="services.html">Servicios</a></li> <!-- Enlace a la página "Services". -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyectos <b class="caret"></b></a> <!-- Enlace desplegable a "Projects". -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="project-grid-two.html">Project Grid Two</a></li> <!-- Opción de menú: Project Grid Two. -->
+                                    <li><a href="project-grid-three.html">Project Grid Three</a></li> <!-- Opción de menú: Project Grid Three. -->
+                                    <li><a href="project-single.html">Single project Page</a></li> <!-- Opción de menú: Single project Page. -->
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a> <!-- Enlace desplegable a "Blog". -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog-with-sidebar.html">Blog Page</a></li> <!-- Opción de menú: Blog Page. -->
+                                    <li><a href="blog-post.html">Single Blog Page</a></li> <!-- Opción de menú: Single Blog Page. -->
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contacto</a></li> <!-- Enlace a la página "Contact". -->
+                        </ul>
+                    </div> <!-- /.navbar-collapse -->
+                </div>
+            </div> <!-- /.container-fluid -->
+        </nav> <!-- fin de la navegación -->
+    </header> <!-- fin del encabezado -->
     
 	<div class="banner-area">
 		<div class="container">
@@ -214,36 +216,31 @@
         </div><!-- end container -->
     </section><!-- end portfolio section -->
 	
+    <!-- Área superior del pie de página -->
     <footer class="footer-top-area">
-    	<div class="container">
-        	<div class="">
-            	<div class="footertop">
-                
+        <div class="container">
+            <div class="">
+                <div class="footertop">
                     <div class="footer-copy-right col-sm-12">
-						<a  href="#"> Clasico </a>
-						<div class="footer-top-social-info">
-                            <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
-                            <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
-                            <a href="" class="youtube"><i class="fa fa-youtube"></i></a>
-                            <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                        <a href="index.html"><img src="images/logos/ingsistemas.png" alt="logo" /></a> <!-- Imagen del proyecto. -->
+                        <div class="footer-top-social-info">
+                            <a href="https://www.facebook.com/tuPerfil" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> <!-- Enlace a Facebook. -->
+                            <a href="https://twitter.com/tuPerfil" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> <!-- Enlace a Twitter. -->
+                            <a href="https://www.youtube.com/tuPerfil" class="youtube" target="_blank"><i class="fa fa-youtube"></i></a> <!-- Enlace a YouTube. -->
+                            <a href="https://www.linkedin.com/in/tuPerfil" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a> <!-- Enlace a LinkedIn. -->
+                            <a href="https://wa.me/573136830234" class="whatsapp" target="_blank"><i class="fa fa-whatsapp"></i></a> <!-- Enlace a WhatsApp. -->
                         </div>
-						
-                    </div><!-- end footer-top -->
-					<div class="copy-right-area">
-					
-						<div class="footer-copy-right col-sm-12">
-							<p > © 2019 Clasico - Minimal Portfolio Template  </p>
-						</div><!-- end footer-widget -->
-
-						
-					</div>
-                    
-                </div><!-- end widgets -->
-                
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </footer><!-- end footer -->
-
+                        </div>
+                    </div> <!-- fin footer-top -->
+                    <div class="copy-right-area">
+                        <div class="footer-copy-right col-sm-12">
+                            <p>© 2024 Todos los derechos reservados - Portafolio de Servicios - Antonio José Escrucería Uribe</p> <!-- Información de copyright. -->
+                        </div> <!-- fin footer-widget -->
+                    </div>
+                </div> <!-- fin widgets -->
+            </div> <!-- fin row -->
+        </div> <!-- fin container -->
+    </footer> <!-- fin del pie de página -->
 
 	<!-- JavaScript Files -->
     <script src="js/jquery-2.2.4.min.js"></script>
