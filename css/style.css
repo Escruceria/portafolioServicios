@@ -193,7 +193,7 @@ nav.navbar-default ul.nav li:hover > a b.caret {
   border-bottom: 1px solid #f6f6f6;
 }
 .banner-area.banner-two {
-  background: rgba(0, 0, 0, 0) url("../images/bg-2.jpg") repeat scroll center center / cover ;
+  background: rgba(0, 0, 0, 0) url("../images/home.jpg") repeat scroll center center / cover ;
 }
 .banner-area .home-top {
   margin: 50px 0;
@@ -802,10 +802,6 @@ section.portfolio-area {
   margin-top: 69px;
   padding: 0;
 }
-
-
-
-
 }
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
