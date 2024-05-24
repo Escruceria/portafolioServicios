@@ -1,0 +1,204 @@
+<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5. -->
+<html class="no-js" lang="es"> <!-- El atributo "class" se usa para detectar si JavaScript está habilitado o no. El atributo "lang" indica que el idioma del contenido es inglés. -->
+<head>
+    <meta name="description" content="Clasico - Agency and Portfolio Template"> <!-- Proporciona una descripción del documento para motores de búsqueda. -->
+    <meta name="keywords" content="Clasico, portfolio, wordpress, html, css, theme"> <!-- Palabras clave para SEO. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Configura el viewport para diseño responsive. -->
+    <meta name="LegendTheme" content="legendtheme"> <!-- Meta etiqueta personalizada. -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> <!-- Especifica la codificación de caracteres del documento. -->
+    <title>Portafolio de Servicios</title> <!-- Título del documento que aparece en la pestaña del navegador. -->
+    
+    <!-- Archivos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" /> <!-- Enlace a los estilos de Bootstrap. -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> <!-- Enlace a los iconos de Font Awesome. -->
+    <link rel="stylesheet" type="text/css" href="css/ionicons.css" /> <!-- Enlace a los iconos de Ionicons. -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- Enlace a los estilos personalizados. -->
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header id="header">
+        <!-- Inicio de la navegación -->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="row">
+                    <!-- Marca y botón de navegación para móviles -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Navegacion de la Cabecera</span> <!-- Texto accesible solo para lectores de pantalla. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                            <span class="icon-bar"></span> <!-- Barra del icono de menú. -->
+                        </button>
+                        <a href="index.html"><img src="images/logos/ingsistemas.png" alt="logo" /></a> <!-- Imagen del proyecto. -->
+                        <!-- <a class="navbar-brand" href="index.html">Logo</a>--> <!-- Enlace a la página principal. -->
+                    </div>
+                    
+                    <!-- Recopilación de enlaces de navegación, formularios y otro contenido para toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">Inicio <b class="caret"></b></a> <!-- Enlace desplegable a la página principal. -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.html">Pagina Principal</a></li> <!-- Opción de menú: Grid Three. -->
+                                    <li><a href="home-grid-two.html">Portafolio</a></li> <!-- Opción de menú: Grid Two. -->
+                                    <li><a href="home-agency.html">Agencia</a></li> <!-- Opción de menú: Agency. -->
+                                </ul>
+                            </li>
+                            <li><a href="about.html">Acerca de</a></li> <!-- Enlace a la página "About". -->
+                            <li><a href="services.html">Servicios</a></li> <!-- Enlace a la página "Services". -->
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Proyectos <b class="caret"></b></a> <!-- Enlace desplegable a "Projects". -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="project-grid-two.html">Project Grid Two</a></li> <!-- Opción de menú: Project Grid Two. -->
+                                    <li><a href="project-grid-three.html">Project Grid Three</a></li> <!-- Opción de menú: Project Grid Three. -->
+                                    <li><a href="project-single.html">Single project Page</a></li> <!-- Opción de menú: Single project Page. -->
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a> <!-- Enlace desplegable a "Blog". -->
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog-with-sidebar.html">Blog Page</a></li> <!-- Opción de menú: Blog Page. -->
+                                    <li><a href="blog-post.html">Single Blog Page</a></li> <!-- Opción de menú: Single Blog Page. -->
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contacto</a></li> <!-- Enlace a la página "Contact". -->
+                        </ul>
+                    </div> <!-- /.navbar-collapse -->
+                </div>
+            </div> <!-- /.container-fluid -->
+        </nav> <!-- fin de la navegación -->
+    </header> <!-- fin del encabezado -->
+    
+    <!-- Área de la pancarta -->
+    <div class="banner-area">
+        <div class="container">
+            <div class="row">
+                <div class="home-top col-sm-12">
+                    <!-- <h3>""Portfolio de Servicios""</h3>--> <!-- Título principal en la pancarta. -->
+                    <!-- <p>El poder lo tienes tu</p>--> <!-- Subtítulo en la pancarta. -->
+                    <!-- <a href="contact.html">Contactame</a>--> <!-- Enlace de llamada a la acción. -->
+                </div> <!-- fin home-top -->
+            </div> <!-- fin row -->
+        </div> <!-- fin container -->
+    </div>
+    
+    <!-- Sección del portafolio -->
+    <section id="portfolio" class="portfolio-area">
+        <div class="container inner-portfolio">
+            <div class="portfolio-filter">
+                <a class="filter" data-filter=".design, .web, .brending, .video">Todos</a> <!-- Filtro para todos los elementos. -->
+                <a class="filter" data-filter=".design">Diseño</a> <!-- Filtro para elementos de diseño. -->
+                <a class="filter" data-filter=".web">web</a> <!-- Filtro para elementos web. -->
+                <a class="filter" data-filter=".brending">Marcado</a> <!-- Filtro para elementos de branding. -->
+                <a class="filter" data-filter=".video">video</a> <!-- Filtro para elementos de video. -->
+            </div>
+            
+            <div class="portfolio">
+                <!-- Elemento del portafolio -->
+                <div class="mix design brending" data-my-order="1">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/1-2.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Rack de Voz y Datos</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+                <!-- Más elementos del portafolio -->
+                <div class="mix web design" data-my-order="2">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/2-2.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Rack de Voz y Datos</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+                <div class="mix video" data-my-order="3">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/2-1.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Rack de Voz y Datos</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+                <div class="mix brending" data-my-order="4">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/3-2.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Tablero para el control de las UPS</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+                <div class="mix brending" data-my-order="4">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/4-2.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Tablero Electrico Regulado</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+                <div class="mix brending" data-my-order="4">
+                    <a href="project-single.html">
+                        <img src="images/portfolio/4-3.jpg" alt="" /> <!-- Imagen del proyecto. -->
+                        <div class="inner-item">
+                            <div class="text">
+                                <h6>Tablero Electrico Regulado</h6> <!-- Título del proyecto. -->
+                                <p>Diseño e Implementación y Montaje</p> <!-- Categoría del proyecto. -->
+                            </div> <!-- fin text -->
+                        </div> <!-- fin inner-item -->
+                    </a>
+                </div>
+            </div> <!-- fin portfolio -->
+        </div> <!-- fin container -->
+    </section> <!-- fin de la sección del portafolio -->
+    
+    <!-- Área superior del pie de página -->
+    <footer class="footer-top-area">
+        <div class="container">
+            <div class="">
+                <div class="footertop">
+                    <div class="footer-copy-right col-sm-12">
+                        <a href="index.html"><img src="images/logos/ingsistemas.png" alt="logo" /></a> <!-- Imagen del proyecto. -->
+                        <div class="footer-top-social-info">
+                            <a href="" class="facebook"><i class="fa fa-facebook"></i></a> <!-- Enlace a Facebook. -->
+                            <a href="" class="twitter"><i class="fa fa-twitter"></i></a> <!-- Enlace a Twitter. -->
+                            <a href="" class="youtube"><i class="fa fa-youtube"></i></a> <!-- Enlace a YouTube. -->
+                            <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a> <!-- Enlace a LinkedIn. -->
+                        </div>
+                    </div> <!-- fin footer-top -->
+                    <div class="copy-right-area">
+                        <div class="footer-copy-right col-sm-12">
+                            <p>© 2024 Todos los derechos reservados - Portafolio de Servicios - Antonio José Escrucería Uribe</p> <!-- Información de copyright. -->
+                        </div> <!-- fin footer-widget -->
+                    </div>
+                </div> <!-- fin widgets -->
+            </div> <!-- fin row -->
+        </div> <!-- fin container -->
+    </footer> <!-- fin del pie de página -->
+    
+    <!-- Archivos JavaScript -->
+    <script src="js/jquery-2.2.4.min.js"></script> <!-- Enlace a jQuery. -->
+    <script src="js/bootstrap.min.js"></script> <!-- Enlace a los scripts de Bootstrap. -->
+    <script src="js/jquery.easing.min.js"></script> <!-- Enlace a jQuery Easing para animaciones suaves. -->
+    <script src="js/jquery.mixitup.min.js"></script> <!-- Enlace a MixItUp para filtrado y clasificación. -->
+    <script src="js/tilt.js"></script> <!-- Enlace a Tilt.js para efectos de inclinación. -->
+    <script src="js/mail.js"></script> <!-- Enlace a scripts de correo personalizado. -->
+    <script src="js/scrollup.js"></script> <!-- Enlace a script para el botón de desplazamiento hacia arriba. -->
+    <script src="js/script.js"></script> <!-- Enlace a scripts personalizados. -->
+</body>
+</html>
